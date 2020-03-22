@@ -1,19 +1,16 @@
 body {
-    background-color:black;
+    background-color:white;
 }
 #menu {
-    list-style-type: none;
-    float:left;
-    padding:10px;
-    font: 28pt Verdana;
-}
-#menu {
-    float: left;
-    width: 100%;
-    background: #000;
-    border-bottom: 4px solid #fff;
-    overflow: hidden;
-    position: relative;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 16px;
+      font-weight: 900;
+	   color: #000;
+      float: left;
+      width: 100%;
+      background: #fff;
+      overflow: hidden;
+      position: relative;
  }
  #menu ul {
     clear: left;
@@ -32,23 +29,18 @@ body {
     margin: 0;
     padding: 0;
     position: relative;
-    right: 50%;
+    right: 53%;
  }
  #menu ul li a {
     display: block;
-    margin: 0 0 0 1px;
-    padding: 3px 10px;
-    background: #000;
-    color: #ddd;
+    margin: 0 0 0 40px;
+    padding: 20px 20px;
+    color: #000;
     text-decoration: none;
-    line-height: 20px;
+    line-height: 10px;
  }
  #menu ul li a:hover {
-    background: #b00;
-    color: #000;
- }
- #menu ul li a.zaznaczony, #menu ul li a.zaznaczony:hover {
-    color: #000;
+    color: #daf87d;
     background: #fff;
     font-weight: bold;
  }
