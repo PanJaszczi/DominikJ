@@ -44,7 +44,7 @@ body {
     background: #fff;
     font-weight: bold;
  }
- #logo {
+#logo {
    line-height: 3; 
    font-family: 'Bradley Hand', cursive;
    font-size: 52px;
@@ -58,13 +58,25 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;  
-   margin-top: 80px;            
- }
- #logo {
+   margin-top: 10px;            
+}
+#logo {
    letter-spacing: -4px; 
 }
- a {
+a {
    text-decoration: none;
    color: transparent;
    color: #000;
+}
+#bar {
+   overflow: hidden;
+   position: relative;
+   display: flex;
+   align-items: right;
+   justify-content: right;     
+}
+#icon a:hover {
+   color: #daf87d;
+   background: #fff;
+   font-weight: bold;
 }
