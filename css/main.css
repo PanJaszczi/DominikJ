@@ -58,10 +58,8 @@ body {
    display: flex;
    align-items: center;
    justify-content: center;  
-   margin-top: 10px;            
-}
-#logo {
-   letter-spacing: -4px; 
+   margin-top: 10px;
+   letter-spacing: -4px;             
 }
 a {
    text-decoration: none;
@@ -72,11 +70,10 @@ a {
    overflow: hidden;
    position: relative;
    display: flex;
-   align-items: right;
-   justify-content: right;     
+   justify-content: right;
+      
 }
-#icon a:hover {
-   color: #daf87d;
-   background: #fff;
-   font-weight: bold;
+#icon {
+
 }
+
