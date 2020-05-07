@@ -68,12 +68,15 @@ a {
 }
 #bar {
    overflow: hidden;
-   position: relative;
+   position: static;
    display: flex;
    justify-content: right;
       
 }
 #icon {
-
+   position: absolute;
 }
 
+#icon > a {
+   margin-right: 30px;
+}
