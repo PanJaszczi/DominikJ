@@ -80,3 +80,56 @@ a {
 #icon > a {
    margin-right: 30px;
 }
+
+#slajder-zdjec {
+   margin: 50px auto; /*wyrównanie w poziomie */
+   width: 1300px; /*szerokość slider'a i obrazów*/
+ }
+ 
+ #ramka-slajdow {
+   height: 500px; /*wysokość obrazów*/
+   overflow: hidden;
+   border: 2px solid #daf87d;
+ 
+ }
+ 
+ #pictures {
+   height: 500px;
+   overflow: hidden; /*ukrywamy wszystko, co wystaje po za prostokąt 600x400px*/
+   position: relative; /* "#slajdy" będzie naszym kontekstem pozycjonującym, dla poszczególnych slajdów*/
+ }
+ 
+ 
+ #nawigacja {
+   margin: 5px 0 0 0;
+   text-align: center;
+   z-index: 10;
+ }
+ 
+ #nawigacja a {
+   display: inline-block; /*numery slajdów będą obok siebie*/
+   text-decoration: none;
+   background: #daf87d;
+   border-radius: 50%; /*numery slajdów będą w kółeczkach się w kółeczkach */
+   padding: 2px 6px;
+   color: #FFFFFF;
+ }
+ 
+ #nawigacja a:hover {
+   background: #daf87d;
+ }
+ 
+ 
+ #pictures img {
+   position: absolute;
+   top: 0;
+   left: -1300px;
+   z-index: 1;
+   opacity: 0;
+ }
+ 
+ #pictures img:target {
+   left: 0;
+   z-index: 2;
+   opacity: 1;
+ }
