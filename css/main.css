@@ -5,7 +5,7 @@ body {
     font-family: 'Century Gothic';
     font-size: 18px;
     font-weight: 500;
-	 color: #000;
+    color: #000;
     float: left;
     width: 100%;
     background: #fff;
@@ -133,3 +133,30 @@ a {
    z-index: 2;
    opacity: 1;
  }
+  #footer {
+   display: flex;
+   border: 2px solid #daf87d;
+   background-color: #FFFFFF;
+   justify-content: center;
+   width: 1324px;
+   float: left;
+   margin-top: 30px;
+   padding-left: 5px;
+   color: #ddd;
+}
+.video{
+   overflow: hidden;
+   border: 2px solid #daf87d;
+   height: 500px;
+   width: 990px;
+   margin: 0 auto; 
+}
+@media screen and (max-width: 768px) {
+/*dla ipada zwykłego*/
+}
+@media screen and (max-width: 750px) {
+ /*dla iphone i innych telefonów*/
+}
+@media screen and (max-width: 1366px) {
+   /*dla ipada pro i komputerów z hd*/
+}
