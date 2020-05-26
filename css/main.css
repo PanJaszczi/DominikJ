@@ -11,7 +11,7 @@ body {
     background: #fff;
     overflow: hidden;
     position: relative;
- }
+}
  #menu ul {
     clear: left;
     float: left;
@@ -21,7 +21,7 @@ body {
     position: relative;
     left: 50%;
     text-align: center;
- }
+}
  #menu ul li {
     display: block;
     float: left;
@@ -30,7 +30,7 @@ body {
     padding: 0;
     position: relative;
     right: 50%;
- }
+}
  #menu ul li a {
     display: block;
     margin: 0 0 0 40px;
@@ -38,12 +38,12 @@ body {
     color: #000;
     text-decoration: none;
     line-height: 10px;
- }
+}
  #menu ul li a:hover {
     color: #daf87d;
     background: #fff;
     font-weight: bold;
- }
+}
 #logo {
    line-height: 3; 
    font-family: 'Bradley Hand', cursive;
@@ -70,54 +70,44 @@ a {
    overflow: hidden;
    position: static;
    display: flex;
-   justify-content: right;
-      
+   justify-content: right;    
 }
 #icon {
    position: absolute;
 }
-
 #icon > a {
    margin-right: 30px;
 }
-
 #slajder-zdjec {
-   margin: 50px auto; /*wyrównanie w poziomie */
-   width: 1300px; /*szerokość slider'a i obrazów*/
+   margin: 50px auto; 
+   width: 1300px; 
  }
- 
  #ramka-slajdow {
-   height: 500px; /*wysokość obrazów*/
+   height: 500px; 
    overflow: hidden;
    border: 2px solid #daf87d;
- 
  }
- 
  #pictures {
    height: 500px;
-   overflow: hidden; /*ukrywamy wszystko, co wystaje po za prostokąt 600x400px*/
-   position: relative; /* "#slajdy" będzie naszym kontekstem pozycjonującym, dla poszczególnych slajdów*/
+   overflow: hidden; 
+   position: relative;
  }
- 
  #nawigacja {
    margin: 5px 0 0 0;
    text-align: center;
    z-index: 10;
  }
- 
  #nawigacja a {
-   display: inline-block; /*numery slajdów będą obok siebie*/
+   display: inline-block;
    text-decoration: none;
    background: #daf87d;
-   border-radius: 50%; /*numery slajdów będą w kółeczkach się w kółeczkach */
+   border-radius: 50%;
    padding: 2px 6px;
    color: #FFFFFF;
  }
- 
  #nawigacja a:hover {
    background: #daf87d;
  }
- 
  #pictures img {
    position: absolute;
    top: 0;
@@ -125,13 +115,12 @@ a {
    z-index: 1;
    opacity: 0;
  }
- 
  #pictures img:target {
    left: 0;
    z-index: 2;
    opacity: 1;
  }
-  #footer {
+#footer {
    border: 2px solid #daf87d;
    background-color: #FFFFFF;
    color: #000;
@@ -141,7 +130,6 @@ a {
    align-items: center;
    justify-content: center;
    margin-top: 30px;
-   color: #ddd;
 }
 .video{
    overflow: hidden;
@@ -179,7 +167,6 @@ a {
    position: absolute;
 }
 .mapka {
-
    overflow: hidden;
    position: relative;
    display: flex;
@@ -190,8 +177,42 @@ a {
    background-color: #FFFFFF;
    height: 250px;
    width: 600px;
+}
+.napis a:hover {
+   font-family: 'Bradley Hand', cursive;
+   font-size: 20px;
+   color: #daf87d;
+   background: #fff;
+   font-weight: bold;
 
-      
+}
+#napis1 {
+   font-family: 'Bradley Hand', cursive;
+   font-size: 14px;
+	width: 200px;
+	float: left;
+   padding: 0px 0px 0px 100px;
+}
+#napis2 {
+   font-family: 'Bradley Hand', cursive;
+   font-size: 14px;
+	width: 200px;
+	float: left;
+	padding: 0px 0px 0px 120px;
+}
+#napis3 {
+   font-family: 'Bradley Hand', cursive;
+   font-size: 14px;
+	width: 200px;
+	float: left;
+	padding: 0px 0px 0px 120px;
+}
+#napis4 {
+   font-family: 'Bradley Hand', cursive;
+   font-size: 14px;
+	width: 200px;
+	float: left;
+   padding: 0px 0px 0px 120px;
 }
 @media screen and (max-width: 768px) {
 /*dla ipada zwykłego*/
