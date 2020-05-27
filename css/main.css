@@ -12,7 +12,7 @@ body {
     overflow: hidden;
     position: relative;
 }
- #menu ul {
+#menu ul {
     clear: left;
     float: left;
     list-style: none;
@@ -22,7 +22,7 @@ body {
     left: 50%;
     text-align: center;
 }
- #menu ul li {
+#menu ul li {
     display: block;
     float: left;
     list-style: none;
@@ -31,7 +31,7 @@ body {
     position: relative;
     right: 50%;
 }
- #menu ul li a {
+#menu ul li a {
     display: block;
     margin: 0 0 0 40px;
     padding: 20px 20px;
@@ -39,7 +39,7 @@ body {
     text-decoration: none;
     line-height: 10px;
 }
- #menu ul li a:hover {
+#menu ul li a:hover {
     color: #daf87d;
     background: #fff;
     font-weight: bold;
@@ -66,14 +66,8 @@ a {
    color: transparent;
    color: #000;
 }
-#bar {
-   overflow: hidden;
-   position: static;
-   display: flex;
-   justify-content: right;    
-}
 #icon {
-   position: absolute;
+   position: relative;
 }
 #icon > a {
    margin-right: 30px;
@@ -81,45 +75,45 @@ a {
 #slajder-zdjec {
    margin: 50px auto; 
    width: 1300px; 
- }
- #ramka-slajdow {
+}
+#ramka-slajdow {
    height: 500px; 
    overflow: hidden;
    border: 2px solid #daf87d;
- }
- #pictures {
+}
+#pictures {
    height: 500px;
    overflow: hidden; 
    position: relative;
- }
- #nawigacja {
+}
+#nawigacja {
    margin: 5px 0 0 0;
    text-align: center;
    z-index: 10;
- }
- #nawigacja a {
+}
+#nawigacja a {
    display: inline-block;
    text-decoration: none;
    background: #daf87d;
    border-radius: 50%;
    padding: 2px 6px;
    color: #FFFFFF;
- }
- #nawigacja a:hover {
+}
+#nawigacja a:hover {
    background: #daf87d;
- }
- #pictures img {
+}
+#pictures img {
    position: absolute;
    top: 0;
    left: -1300px;
    z-index: 1;
    opacity: 0;
- }
- #pictures img:target {
+}
+#pictures img:target {
    left: 0;
    z-index: 2;
    opacity: 1;
- }
+}
 #footer {
    border: 2px solid #daf87d;
    background-color: #FFFFFF;

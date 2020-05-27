@@ -7,7 +7,7 @@
     <title>Lizard Photo - Photo for family</title>
     <!-- Favicon-->
     <link rel="icon" href="img/favicon.ico">
-    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
 </head>
 <body>
     <!-- Line -->
@@ -38,22 +38,27 @@
         </ul>
     </div>
     </nav>
-    <!-- Tytuł  -->    
+    <!-- Tytuł  -->
     <div id="tytul">
-        <p>Video</p>
+        <p>ToDo</p>
     </div>
-    <!-- Video  -->
-    <div class="video">
-        <div style="text-align: center">
-            <video height="500" autoplay>
-                <source src="./assets/video.mp4" />
-            </video>
-        </div>
+    <!-- Lista  -->
+    <div class="Lista">
+        <p>
+          <label for="ListaD">Dodaj do listy</label><input id="ListaD" type="text"><button>Dodaj</button>
+        </p>
+        <ul id="Wypelnione">
+          <li><label>Zdjęcia</label>
+          <li><label>Filmy</label>
+        </ul>
     </div>
-
-<div id="footer">
-    <span style="color: black">© Wszelkie prawa zastrzeżone.</span>
+    <!-- JS  -->
+    <script src="./scripts/app.js" ></script>
+    <!-- Stopka  -->
+    <div id="footer">
+        <span style="color: black">© Wszelkie prawa zastrzeżone.</span>
     </div>
-
+    
+    
 </body>
 </html>
