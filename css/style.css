@@ -100,7 +100,7 @@ a {
 .Lista {
     display: flex;
     width: 400px;
-    margin: 50px auto 0;
+    margin: 10px auto 0;
 }
 button {
     background: none;
